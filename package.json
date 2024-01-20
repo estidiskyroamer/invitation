@@ -1,4 +1,9 @@
 {
+  "scripts": {
+    "dev": "tailwindcss build -i ./src/main.css -o ./public/tailwind.css",
+    "build": "NODE_ENV=production npm run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "devDependencies": {
     "tailwindcss": "^3.4.1"
   }

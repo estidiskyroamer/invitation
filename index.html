@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./public/tailwind.css" rel="stylesheet">
+    <title>Steady Kristi Wedding Invitation</title>
+</head>
+<body>
+    <div id="header" class="flex w-full h-screen bg-header-image bg-cover bg-bottom justify-center">
+        <div id="title" class="absolute top-1/4 p-5 text-white text-center">
+            <img src="./public/assets/logo/steady kristi logo-outline.png" alt="Steady Kristi">
+            <p class="text-xl font-cinzel">Undangan Pernikahan</p>
+        </div>
+        <div id="invitee" class="absolute top-3/4 w-4/5 p-3 text-slate-800 text-center text-sm font-cinzel border-solid border-2 border-white bg-white/30">
+            Kepada yth.
+            <p id="invitee-name" class="text-xl font-medium pb-3"></p>
+            <button class="bg-white p-3" onclick="scrollToAnchor('welcome')">Buka Undangan</button>
+        </div>
+    </div>
+    <div id="welcome" class="flex flex-col w-full bg-marble bg-fixed font-cinzel">
+        <div id="welcome-text" class="px-5 pt-10 text-white text-center text-">
+            Dengan penuh ucapan syukur kepada Tuhan, kami mengundang bapak/ibu/saudara/i pada pernikahan kami
+        </div>
+        <div id="bridegroom-ids" class="flex flex-col p-5 text-white">
+            <div id="groom" class="flex flex-col md:flex-row md:h-1/4">
+                <div id="groom-photo" class="flex p-5 justify-center items-center md:w-1/2"><img src="public/assets/images/groom.png" class="md:h-1/2"></div>
+                <div id="groom-id" class="flex flex-col py-5 text-center items-center justify-center">
+                    <div id="groom-name" class="text-2xl font-bold pb-5">Alphianno Steady Kambodji</div>
+                    <div id="groom-parents"><strong>Putra dari</strong><br>Bapak Alphinus R. Kambodji<br>&<br>Ibu Nopy Srihandajani</div>
+                </div>
+            </div>
+            <div id="bride" class="flex flex-col md:flex-row-reverse md:h-1/4">
+                <div id="bride-photo" class="flex p-5 justify-center items-center md:w-1/2"><img src="public/assets/images/bride.png" class="md:h-1/2"></div>
+                <div id="bride-id" class="flex flex-col py-5 text-center items-center justify-center">
+                    <div id="bride-name" class="text-2xl font-bold pb-5">Ayu Kristi Nugraheni</div>
+                    <div id="bride-parents"><strong>Putri dari</strong><br>Bapak Suprihadi Arizatmoedi<br>&<br>Ibu Wahju Pudji Antini</div>
+                </div>
+            </div>
+        </div>
+        <div id="event" class="flex flex-col text-white justify-center text-center p-5 bg-cover">
+            <div id="event-title" class="text-xl font-bold">Ibadah Pemberkatan</div>
+            <div id="event-date" class="text-lg py-5">Sabtu, 15 Juni 2023<br>jam 09.00 WIB</div>
+            <div id="event-venue">Greja Kristen Jawi Wetan Jemaat Malang,<br>Jl. KH. Hasyim Ashari Gg. VI No. 5 Malang, Jawa Timur</div>
+        </div>
+    </div>
+</body>
+<script src="src/script.js" type="application/javascript">
+</script>
+</html>
