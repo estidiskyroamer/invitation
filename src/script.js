@@ -13,6 +13,12 @@ function scrollToAnchor(url) {
     targetElement.scrollIntoView({ behavior: 'smooth' });
 }
 
+function toggleDiv(url) {
+    var targetElement = document.getElementById(url);
+    targetElement.classList.toggle('hidden');
+    targetElement.classList.toggle('block');
+}
+
 window.onload = function() {
     // Get the 'u' parameter from the URL
     var uParameter = getParameterByName('u');
