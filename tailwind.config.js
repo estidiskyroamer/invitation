@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'peach': '#EEDBD5',
-        'pink': '#F2CEB8',
+        'peach': '#f0e1c2',
+        'dark': '#050505',
         'offwhite': '#F5F0ED'
       },
       backgroundImage: {
